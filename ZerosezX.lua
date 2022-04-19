@@ -301,7 +301,7 @@ end)
 local Tab = Window:NewTab("Misc.")
 local Section = Tab:NewSection("Misc. for this script")
 Section:NewLabel("Infinity Jump (save) ❗")
-Section:NewButton("ButtonText", "ButtonInfo", function()
+Section:NewButton("Click Here", "ButtonInfo", function()
     local InfiniteJumpEnabled = true
 game:GetService("UserInputService").JumpRequest:connect(function()
 	if InfiniteJumpEnabled then
